@@ -8,6 +8,7 @@ Books API Built in Laravel 6
 composer install
 cp .env-example .env
 php artisan key:generate
+php artisan passport:install
 php artisan migrate --seed
 php artisan serve --port=8000
 ```
